@@ -1,0 +1,292 @@
+@font-face {
+    font-family: font1;
+    src: url(font1.woff2);
+}
+@font-face {
+    font-family: font2;
+    src: url(font2.woff2);
+}
+@font-face {
+    font-family: font3;
+    src: url(font3.woff2);
+}
+body{
+    background-color: #ebefef;
+    margin: 0;
+}
+.first{
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 96px;
+}
+.topnav{
+    background-color: #ffffff;
+    overflow: hidden;
+    font: 10px 'Roboto Condensed',sans-serif;
+}
+.topnav a {
+    float: left;
+    color: #8b8383;
+    text-align: center;
+    padding: 14px 9px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.topnav a:hover{
+    color: rgb(42, 0, 182);
+}
+.first >img
+{
+    margin-left: 98px;
+    margin-top: 1px;
+}
+.image1{
+    margin: 28px 115px ;
+    border: 6px rgb(255, 255, 255) solid;
+    height: 541px;
+}
+.welcome{
+    background-color: white;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#num1{
+    padding-top: 80px;
+    text-align: center;
+    height: 19px;
+    font-size: 28px ;
+    color: #39464f;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.5;
+    
+
+}
+#num2{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 17px;
+    height: 200px;
+    color: #566168;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 0;
+}
+.signature{
+    background-color: white;
+    
+}
+#sign{
+    width: 250px;
+    margin-bottom: 20px;
+    margin-left: 600px;
+    margin-top: 70px;
+}
+#signtext{
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    color: #76828a;
+    line-height: 20px;
+    margin-top: 0;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 0;    
+}
+.wastemanagementh2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2rem;
+    color: white;
+    margin-left: 100px;
+    margin-top: 110px;
+
+}
+.row p{
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Montserrat',sans-serif;
+    box-sizing: border-box;
+    margin-left: 100px;
+    line-height: 25px;
+    
+    
+    
+}
+.wastemanagement{
+    
+    background-color: #0097dc;
+    padding-bottom: 80px;
+    padding-top: 20px;
+    margin-top: 0;
+    display: flex;
+    
+    
+}
+.batan{
+    background: none;
+    border-width: 2px;
+    font: 14px 'Montserrat',sans-serif;
+    color: #fff;
+    padding: 10px 20px; 
+    cursor: pointer;
+    display: inline-block;
+    border-color: white;
+    
+}
+.batan:hover{
+    background-color: white;
+    color: black;
+    border-color: black
+    
+}
+.manageimage{
+    margin-left: 10px;
+    vertical-align: middle;
+    border: white solid;
+    border-width: 6px;
+    height: 340px;
+    margin-top: 50px;
+    
+
+}
+.battan1{
+    margin-left: 100px;
+    margin-right: 400px;
+}
+.row{
+    margin-left: 30px;
+}
+.pic1{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 1.5px;
+}
+.last{
+    background-color: white;
+    padding-top: 20px;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 60px;
+    
+    
+}
+.pictures1{
+    text-align: center;
+    display: flex;
+    background-color: white;
+    margin-top: 0;
+    justify-content: center;
+    padding: 15px;
+    
+}
+.pic2{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    padding: 15px;
+
+}
+.pic3{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    padding: 15px;
+}
+.pictures2{
+    display: flex;
+    justify-content: center;
+
+}
+.pic4{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    padding: 15px;
+}
+.pic5{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    padding: 15px;
+}
+.pic6{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    padding: 15px;
+}
+h6{
+    margin-bottom: 0;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #39464f;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    cursor: pointer;
+}
+h6:hover{
+    color: blue;
+}
+.climax{
+    background: #39464f;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    display: flex;
+}
+ul{
+    list-style: none; 
+    margin-left: 100px;
+    line-height: 25px;
+    cursor: pointer;
+    color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+h5{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-left: 138px;
+}
+.texteria1 a{
+    text-decoration: none;
+    color: white;
+    font: 13px 'Montserrat',sans-serif;
+}
+.texteria1 a:hover{
+    text-decoration: underline;
+}
+.texteria2 a:hover{
+    text-decoration: underline;
+}
+.texteria2 a{
+    text-decoration: none;
+    color: white;
+    font: 13px 'Montserrat',sans-serif;
+}
+.texteria3 p{
+    font-family: 'Montserrat',sans-serif;
+    color: white;
+    line-height: 26px;
+    font-size: 13px;
+    margin-left: 160px;
+}
+.texteria4{
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 13px;
+    line-height: 26px;
+    margin-left: 100px;
+}
+.texteria4 h5{
+    margin-left: 0px;
+}
